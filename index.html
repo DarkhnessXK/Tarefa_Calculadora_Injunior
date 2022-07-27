@@ -14,17 +14,17 @@
         <h1>Calculadora das Medias dos Alunos</h1>
     </header>
     <section id="caixa_calculadora">
-        <p>Nota</p>
-        <input type="text" placeholder="digita uma nota" id="nota">
-        <button id="btn" value="">Adicionar</button>
-
+        Nota
+        <input type="text" id="nota_text" placeholder="digita uma nota" >
+        <button id="btn" value="salva_nota()">Adicionar</button>
         <br>
-        <textarea id="box" ></textarea>
-<br>
-<button id="calcular" value="">Calcular Média</button>
-    
-<p>A Média è: </p>
-</section>
+        <textarea id="box" readonly><p id="line_box"></p></textarea>
+        <br>
+        <button id="calcular" value="">Calcular Média</button>
+
+        <p>A Média è: </p>
+    </section>
     <script src="calculadora.js"></script>
 </body>
+
 </html>

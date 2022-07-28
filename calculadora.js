@@ -7,9 +7,6 @@ function salva_nota() {
         const div_lista = document.createElement("div");
         const texto = document.querySelector(".nota_text");
         const lista_numeros = document.querySelector(".lista");
-        // if(texto.value = ""){   //bugado
-        //     alert("Por favor, Insira uma Nota!!!")
-        // }
         if (texto.value >= 0 && texto.value <= 10) {
             div_lista.innerText = `A Nota ${i + 1}: foi ${texto.value} \n`;
             notas[i] = texto.value
